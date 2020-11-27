@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "MacBook Pro Copy Cat Images",
+			"path": "../MacBook Pro Copy Cat Images"
+		},
+		{
+			"name": "MacBook Pro Copy Cat",
+			"path": "."
+		},
+		{
+			"path": "images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MacBook Pro Copy Cat"
+	}
+}

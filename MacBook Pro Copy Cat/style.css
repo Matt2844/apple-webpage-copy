@@ -1,0 +1,827 @@
+
+
+
+/* To remove all hyperlink styling */
+
+a {
+    text-decoration: none;
+}
+
+/* Nav bar */
+
+.nav-container {
+    background-color: rgb(58, 58, 58);
+
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: auto; 
+    width: 75%;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px; 
+}
+
+.nav-items a {
+    color: white; 
+    opacity: 0.7;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.nav-items a:hover {
+    opacity: 1;
+    transition: 0.7s
+}
+
+.apple-nav-icon {
+    margin-left: 35px;
+    margin-top: 4px;
+}
+
+.mac-nav {
+    margin-top: 6px;
+    margin-left: 40px
+}
+
+.ipad-nav {
+    margin-top: 6px;
+    margin-left: -40px;
+}
+
+.iphone-nav {
+    margin-top: 6px;
+    
+}
+
+.watch-nav {
+    margin-top: 6px;
+}
+
+.tv-nav {
+    margin-top: 6px;
+}
+
+.music-nav {
+    margin-top: 6px;
+}
+
+.support-nav {
+    margin-top: 6px;
+}
+
+.search-nav-icon img {
+    width: 50%; 
+    height: auto;
+}
+
+
+.business-nav-icon img {
+    width: 50%; 
+    height: auto; 
+}
+
+
+
+/* Secondary nav bar */
+
+.background-nav2 {
+    background-color: rgb(249, 249, 249);
+    height: 113px;
+    display: flex;
+     
+}
+
+.background-nav2 ul {
+    display: flex; 
+    list-style-type: none;
+    justify-content: space-between;
+    margin: auto; 
+    width: 40%;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+.background-nav2 a:hover {
+    color: rgb(47, 47, 245);
+}
+
+.macbook-pro13-nav2 span {
+    color: rgb(237, 140, 140); 
+    font-size: 10px
+}
+
+
+/* MacBook Pro intro - heading and picture */
+
+.intro-container {
+    background-color: white;
+    height: 30%;
+    width: auto;
+}
+
+.intro-container h1 {
+    margin-left: 35%;
+    font-size: 75px;
+    font-family: sans-serif;
+    font-weight: 550;
+    cursor: default;
+}
+
+.intro-container img {
+    display: block; 
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
+
+/* MacBook Pro intro - text comparing the pricing on 16" vs 13" */
+
+/* The styling for the 16-inch model */
+
+.compare-container {
+    display: flex; 
+    height: 30%;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%; 
+    overflow: hidden;
+    padding-bottom: 13%
+}
+
+.compare-item1 {
+    float: left; 
+    margin-left: 26%; 
+    font-family: sans-serif;
+    line-height: 22px;
+    margin-top: 25px;
+    text-align: center;
+}
+  
+.compare-item2 {
+    float: right;
+    margin-left: 15%;
+    font-family: sans-serif;
+    line-height: 22px; 
+    margin-top: 5px; 
+    text-align: center;
+}
+
+.line1 {
+    font-size: 16px;
+}
+
+.line2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.line3 {
+    font-size: 22px;
+    font-weight: 600; 
+    line-height: 20px
+}
+
+.line4 span {
+    background: rgb(58, 109, 218); 
+    border-radius: 30%/50%; 
+    line-height: 25px;
+    color: white;
+    padding: 8px 16px 8px 16px; 
+    cursor: pointer; 
+    opacity: 0.9
+}
+
+.line4 span:hover {
+    opacity: 1;
+    filter: brightness(115%);
+}
+
+.line4 u {
+    color: rgb(58, 109, 218); 
+    text-decoration-line: none; 
+}
+
+.line4 u:hover {
+    text-decoration-line: underline;
+    cursor: pointer; 
+}
+
+.line4 i {
+    font-style: normal;
+    font-size: 17px;
+    color: rgb(58, 109, 218)
+}
+
+
+/* The styling for the 13-inch model */
+    
+.line11 {
+    color: rgb(237, 140, 140);
+    font-size: 14px; 
+    line-height: 2px
+    
+}
+
+.line22 {
+    font-size: 16px; 
+    line-height: 12px;
+}
+
+.line33 {
+    font-size: 30px; 
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.line44 {
+    font-size: 22px; 
+    font-weight: 600;
+}
+
+.line55 span {
+    background: rgb(58, 109, 218);
+    color: white; 
+    line-height: 30px;
+    border-radius: 30%/50%;
+    padding: 8px 16px 8px 16px; 
+    opacity: 0.9
+}
+   
+.line55 span:hover {
+    opacity: 1; 
+    filter: brightness(115%); 
+    cursor: pointer;
+}  
+
+.line55 u {
+    color: rgb(58, 109, 218);
+    text-decoration-line: none;
+}
+
+.line55 u:hover {
+    text-decoration-line: underline;
+    cursor: pointer; 
+}
+
+.line55 i {
+    font-style: normal; 
+    color: rgb(58, 109, 218);
+    font-size: 17px;
+}
+
+
+/* Table header - Find the right MacBook Pro for you */ 
+
+.finding-container {
+    height: 20%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: grey;
+    padding-bottom: 1%;  
+    padding-top: 5%;
+    font-family: sans-serif;
+    display: flex; 
+    background-color: rgb(243, 243, 243)
+}
+
+.header {
+    font-size: 21px;
+    margin-left: 11%;
+    padding-top: 7%;
+}
+
+.img1 {
+    margin-left: 3%;
+    padding-top: 7%; 
+}
+
+.img2 {
+    padding-top: 5.13%;
+    margin-left: 1.8%
+}
+
+/* The compare 13 vs 16 grid */
+
+.table-container {
+    background-color: rgb(243, 243, 243);
+    padding-left: 10%
+}
+
+.table {
+    font-family: sans-serif;   
+    border-collapse: collapse;
+    width: 82%;
+    background-color: rgb(243, 243, 243)
+
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+    padding-left:  16%;
+}
+
+.table th:nth-child(3), .table td:nth-child(3) {
+    padding-left: 10%;
+}
+
+.tr-header {
+    font-size: 19px;
+    text-align: left;
+    line-height: 28px;
+}
+
+
+.tr-header span {
+    font-size: 14px;   
+}
+
+th, td {
+    padding: 13px;
+    border-bottom: 1px solid rgb(210, 206, 206);
+}
+
+/* The "buy learn more" at the bottom of the grid */ 
+
+.buy-container {
+    display: flex; 
+    font-family: sans-serif;
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 4%
+}
+
+.buy1 span {
+    background: rgb(58, 109, 218);
+    color: white; 
+    line-height: 30px;
+    border-radius: 30%/50%;
+    padding: 8px 16px 8px 16px; 
+    opacity: 0.9
+}
+
+.buy1 span:hover {
+    opacity: 1;
+    filter: brightness(115%);
+    cursor: pointer;
+}
+
+.buy1 {
+    padding-left: 39%; 
+    padding-top: 2.5%;
+    text-decoration-line: none;
+}
+
+.buy1 u {
+    text-decoration-line: none;
+    color: rgb(58, 109, 218)
+}
+
+.buy1 u:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.buy1 i {
+    font-style: normal;
+    color: rgb(58, 109, 218);
+}
+
+.buy2 span {
+    background: rgb(58, 109, 218);
+    color: white; 
+    line-height: 30px;
+    border-radius: 30%/50%;
+    padding: 8px 16px 8px 16px; 
+    opacity: 0.9
+}
+
+.buy2 span:hover {
+    opacity: 1;
+    filter: brightness(115%);
+    cursor: pointer;
+}
+
+.buy2 {
+    padding-left: 11.5%; 
+    padding-top: 2.5%;
+    text-decoration-line: none;
+}
+
+.buy2 u {
+    text-decoration-line: none;
+    color: rgb(58, 109, 218)
+}
+
+.buy2 u:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.buy2 i {
+    font-style: normal;
+    color: rgb(58, 109, 218);
+}
+
+.compare-all-text {
+    padding-left: 40%;
+    background-color: rgb(243, 243, 243);
+    font-family: sans-serif;
+    padding-bottom: 8%; 
+    color: rgb(58, 109, 218);
+    
+}
+
+.compare-all-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* The two large block columns */ 
+
+.row {
+    display: flex;
+    margin: 13px;
+}
+
+.columns {
+    flex: 50%;
+    margin: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 2.5%
+}
+
+.columns h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.columns h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.h31 {
+    font-weight: 300; 
+    font-size: 17px;
+}
+
+.h41 {
+    font-weight: 400;
+    color: rgb(58, 109, 218);
+}
+
+.h41 i { 
+    font-style: normal; 
+}
+
+.h41:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.columns h1 {
+    line-height: 1px; 
+}
+
+.columns span {
+    font-weight: 300;
+    border-radius: 25%/50%;
+    background-color: rgb(58, 109, 218);
+    padding: 8px 16px 8px 16px;
+    color: white;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.columns span:hover {
+    opacity: 1;
+    filter: brightness(115%);
+    cursor: pointer;
+}
+
+.column1-img {
+    padding-top: 10%;
+}
+
+/* Two small info block columns */ 
+
+.row2 {
+    display: flex; 
+    font-family: sans-serif;
+    padding-bottom: 10%;
+}
+
+.columns2 {
+    flex: 50%;
+    text-align: center;
+}
+
+.box-icon {
+    padding-top: 10%;
+}
+
+.app-store-icon {
+    padding-top: 10%;
+}
+
+.columns2 h1 {
+    font-size: 19px;
+}
+
+.columns2 h2 {
+    font-size: 19px; 
+    font-weight: 400
+}
+
+.columns2 i {
+    font-style: normal;
+    color: rgb(58, 109, 218);
+    cursor: pointer; 
+}
+
+.h312 u {
+    color: rgb(58, 109, 218);
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration-line: none;
+}   
+
+.h312 u:hover {
+    text-decoration-line: underline;
+}
+
+.h313 u {
+    color: rgb(58, 109, 218);
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.h313 u:hover {
+    text-decoration-line: underline;
+}
+
+/* Fine print and short 1,2,3 list at bottom */ 
+
+.fine-print-container {
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 1%;
+    padding-top: 1.5%;
+}
+
+.fine-print-text {
+    color: rgb(164, 164, 164);
+    font-weight: 300;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.fine-print-list {
+    color: rgb(164, 164, 164);
+    font-weight: 300;
+    padding-left: 11%;
+    line-height: 22px;
+}
+
+.fine-print-list span {
+   color: black; 
+   cursor: pointer; 
+}
+
+.fine-print-list span:hover {
+    text-decoration: underline;
+}
+
+hr.hr1 {
+    border-top: 1px solid rgb(189, 189, 189);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* The small nav in the footer */
+
+.nav-footer { 
+    padding-top: 0.5%;
+    background-color: rgb(243, 243, 243);
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+}
+
+.nav3 {
+    display: flex; 
+    padding-left: 9.7%;
+    justify-content: space-around;
+    padding-right: 75%;
+    margin-top: -1%
+}
+
+.apple-icon-2 {
+    margin-top: -1.5%;
+    margin-bottom: 1.7%;
+    opacity: 0.9
+}
+
+.apple-icon-2:hover {
+    opacity: 1;
+    cursor: pointer;    
+}
+
+.nav3 span {
+    opacity: 0.9;
+}
+
+.nav3 span:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+    opacity: 1;
+}
+
+/* The footer index */ 
+
+.footer-index {
+    background-color: rgb(243, 243, 243);
+    margin-top: -19px;
+    font-family: sans-serif;
+}
+
+.columns5 li {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 25px; 
+    padding-left: 1%;
+    opacity: 0.6;
+    
+}
+
+.columns5 li:hover {
+    opacity: 1; 
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.columns5 {
+    display: flex;
+}
+
+.column1 {
+    background-color: rgb(243, 243, 243);
+    width: 200px;
+    padding-left: 100px;
+}
+
+.column2 {
+    background-color: rgb(243, 243, 243);
+    width: 165px;
+    padding-left: 5px
+}
+
+.column3 {
+    background-color: rgb(243, 243, 243);
+    width: 185px;
+    padding-left: 30px;
+}
+
+.column4 {
+    padding-left: 5px;
+    background-color:rgb(243, 243, 243);
+    width: 190px
+}
+
+.column5 {
+    background-color: rgb(243, 243, 243);
+    padding-left: 7px; 
+    width: 200px
+}
+
+li.sub {
+    opacity: 0.9
+}
+
+li.sub:hover {
+    text-decoration-line: none;
+    cursor: default;
+    opacity: 0.9;
+}
+
+/* The actual footer */
+
+.footer2-container {
+    background-color: rgb(243, 243, 243);
+    margin-top: -18px;
+    font-family: sans-serif;
+    font-size: 13px; 
+}
+
+.ways-to-shop {
+    padding-left: 9%;
+    padding-top: 3%;
+    opacity: 0.5
+}
+
+.ways-to-shop u {
+    text-decoration-line: none;
+    color: rgb(0, 81, 255);
+    filter: brightness(150%)
+}
+
+.ways-to-shop u:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.hr2 {
+    width: 82%;
+    opacity: 0.5
+}
+
+.disclaimer-container {
+    display: flex;
+    padding-bottom: 1%;
+}
+
+.disclaimer {
+    padding-left: 9%;
+    padding-top: 3px;
+    opacity: 0.5
+}
+
+.language {
+    padding-left: 28%;
+    padding-top: 3px;
+    opacity: 0.6;
+}
+
+.language u {
+    text-decoration-line: none;
+}
+
+.language u:hover {
+    text-decoration-line: underline;
+    cursor:pointer;
+}
+
+.final-nav-container {
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 1.5%
+}
+
+
+.final-nav {
+    padding-bottom: 1.5%;
+    font-family: sans-serif;
+    opacity: 0.65;
+    font-size: 12px;
+    padding-left: 9%;
+}
+
+.final-nav i {
+    font-style: normal;
+    opacity: 0.5
+}
+
+.final-nav u {
+    text-decoration-line: none;
+
+}
+
+.final-nav u:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+/* END */
+
+
+.original-images-container img {
+    margin: 50px 15px 10px 10px;
+    border: 4px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
